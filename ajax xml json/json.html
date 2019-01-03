@@ -1,0 +1,16 @@
+<html>
+    <body>
+        <h2>Format Biodata menggunakan JavaScript</h2>
+        NAMA :<b id="demo"></b><br>
+        USIA :<b id="demo1"></b><br>
+        KOTA :<b id="demo2"></b></i>
+
+        <script>
+        var myJSO='{"name":"Widy S.p","age":20,"city":"Semarang"}';
+        var myObj= JSON.parse(myJSO);
+        document.getElementById("demo").innerHTML=myObj.name;
+        document.getElementById("demo1").innerHTML=myObj.age;
+        document.getElementById("demo2").innerHTML=myObj.city;
+        </script>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+<katalog>
+    <buku category="Hacker">
+        <judul bahasa="en">Learning XML</judul>
+        <pengarang>W.S.Prakoso</pemgarang>
+        <tahun>2019</tahun>
+        <harga>9,999,999</harga>
+    </buku>
+    <buku category="Programing">
+        <judul bahasa="id">Pemograma PHP</judul>
+        <pengarang>Widy Suryo.P</pemgarang>
+        <tahun>2019</tahun>
+        <harga>99,999</harga>
+    </buku>
+</katalog>
